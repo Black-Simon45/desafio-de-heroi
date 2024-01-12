@@ -1,8 +1,5 @@
-let = heroi;
-console.log("Digite o nome do herói: ");
-
-let = xp;
-console.log("Digite a quantidade de experiências: ");
+let jogador = "Herói" 
+let xp 
 
 let nivel;
 
@@ -20,8 +17,9 @@ if (xp < 1000){
     nivel = "Ascendente";
 } else if (xp >= 9001 && xp <= 10000){
     nivel = "Imortal";
-} else if (xp >= 10001){
+} else {
     nivel = "Radiante";
 }
-for (let i = 0; i < 3; i++);    
-console.log(heroi + "atingiu o nível " + nivel + "!");
+for (let i = 0; i < 3; i++) {
+    console.log(jogador + " atingiu o nível " + nivel);
+}

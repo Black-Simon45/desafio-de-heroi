@@ -20,3 +20,6 @@ if (vitoria < 10){
 }
 return { saldoVitorias, nivel };
 }
+for (let i = 0; i < 3; i++) {
+console.log(`O Herói tem um saldo de ${saldoVitorias} está no nível de ${nivel}`);
+}

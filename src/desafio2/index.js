@@ -18,8 +18,10 @@ if (vitorias < 10){
 } else {
     nivel = "Imortal";
 }
-return { saldoVitorias, nivel };
+return `O Herói tem um saldo de ${saldoVitorias} e está no nível de ${nivel}`;
 }
-for (let i = 0; i < 3; i++) {
-console.log(`O Herói tem um saldo de ${saldoVitorias} está no nível de ${nivel}`);
-}
+
+let vitorias = 60;
+let derrotas = 20;
+let resultado = calcularNivel(vitorias, derrotas);
+console.log(resultado);
